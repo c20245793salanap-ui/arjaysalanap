@@ -261,9 +261,17 @@ a {
     display: block;
 }
 
-.dot.red { background: #ff6b63; }
-.dot.yellow { background: #ffc857; }
-.dot.green { background: #6de69d; }
+.dot.red {
+    background: #ff6b63;
+}
+
+.dot.yellow {
+    background: #ffc857;
+}
+
+.dot.green {
+    background: #6de69d;
+}
 
 .monitor-screen {
     position: relative;
@@ -332,7 +340,7 @@ a {
     font-weight: 700;
 }
 
-.profile-tags span + span {
+.profile-tags span+span {
     background: #0b1c48;
 }
 
@@ -784,7 +792,7 @@ a {
     }
 
     .hero {
-        padding-top: 26px;
+        padding-top: 12px;
     }
 
     .hero h1 {
@@ -830,6 +838,7 @@ a {
         opacity: 0.35;
         transform: translateY(18px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -837,6 +846,7 @@ a {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
     *,
     *::before,
     *::after {
