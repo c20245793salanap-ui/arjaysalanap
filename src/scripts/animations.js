@@ -11,8 +11,7 @@ gsap.from("#services", {
     scrollTrigger: {
         trigger: "#services",
         start: "top 80%",
-        toggleActions: "play none none reverse",
-        markers: true
+        toggleActions: "play none none reverse"
     }
 });
 
